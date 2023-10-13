@@ -24415,7 +24415,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="H2" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
-<part name="ON" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
+<part name="ON" library="SparkFun-LED" deviceset="LED-RED" device="_0603-KB" value="RED"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
 <part name="R7" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="30.1KOHM" device="-0603-1/10W-1%" value="30.1k"/>
@@ -24462,8 +24462,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="MEAS" library="SparkFun-Jumpers" deviceset="JUMPER-COMBO_2_NC_TRACE" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="POWER" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
+<part name="POWER" library="SparkFun-LED" deviceset="LED-RED" device="_0603-KB" value="RED"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_04" device="SMD_STRAIGHT_COMBO" value="SMD"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
@@ -24515,8 +24515,8 @@ to measure current consuption</text>
 <instance part="H4" gate="G$1" x="243.84" y="30.48" smashed="yes"/>
 <instance part="H3" gate="G$1" x="243.84" y="27.94" smashed="yes"/>
 <instance part="ON" gate="G$1" x="99.06" y="55.88" smashed="yes" rot="R270">
-<attribute name="NAME" x="96.52" y="60.198" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="95.504" y="54.102" size="1.778" layer="96" font="vector" align="top-left"/>
+<attribute name="NAME" x="94.488" y="59.309" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="94.488" y="53.975" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="R2" gate="G$1" x="109.22" y="55.88" smashed="yes">
 <attribute name="NAME" x="109.22" y="57.404" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -24683,8 +24683,8 @@ to measure current consuption</text>
 <attribute name="VALUE" x="160.02" y="167.894" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="POWER" gate="G$1" x="160.02" y="160.02" smashed="yes">
-<attribute name="NAME" x="156.21" y="156.21" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="161.798" y="156.464" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<attribute name="NAME" x="156.591" y="155.448" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="161.925" y="155.448" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="R1" gate="G$1" x="160.02" y="147.32" smashed="yes" rot="R270">
 <attribute name="NAME" x="161.544" y="147.32" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>

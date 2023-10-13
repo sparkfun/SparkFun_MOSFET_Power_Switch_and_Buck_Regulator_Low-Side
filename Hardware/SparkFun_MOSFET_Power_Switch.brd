@@ -7113,8 +7113,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </element>
 <element name="ON" library="SparkFun-LED" package="LED-0603" value="RED" x="13.843" y="3.5052" smashed="yes" rot="R180">
 <attribute name="NAME" x="13.843" y="2.8702" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-00819" x="13.843" y="-0.3048" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="VALUE" x="13.843" y="4.1402" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="PROD_ID" value="DIO-17976" x="13.843" y="-0.3048" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R2" library="SparkFun-Resistors" package="0603" value="4.7k" x="10.16" y="2.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="9.398" y="2.54" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -7240,13 +7239,12 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </element>
 <element name="POWER" library="SparkFun-LED" package="LED-0603" value="RED" x="33.02" y="26.67" smashed="yes">
 <attribute name="NAME" x="33.02" y="27.305" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-00819" x="33.02" y="26.67" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="33.02" y="26.035" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="DIO-17976" x="33.02" y="26.67" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="R1" library="SparkFun-Resistors" package="0603" value="1k" x="33.0073" y="28.3337" smashed="yes" rot="R180">
+<element name="R1" library="SparkFun-Resistors" package="0603" value="4.7k" x="33.0073" y="28.3337" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.0073" y="27.5717" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07856" x="33.0073" y="28.3337" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="VALUE" x="33.0073" y="29.0957" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="PROD_ID" value="RES-07857" x="33.0073" y="28.3337" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VALUE" value="4.7k" x="33.0073" y="29.0957" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="U$24" library="output" package="MOSFET_0" value="" x="18.120359375" y="29.14141875" smashed="yes" rot="MR0"/>
 <element name="U$25" library="output" package="POWER_1" value="" x="18.034" y="24.7904" smashed="yes" rot="MR0"/>
