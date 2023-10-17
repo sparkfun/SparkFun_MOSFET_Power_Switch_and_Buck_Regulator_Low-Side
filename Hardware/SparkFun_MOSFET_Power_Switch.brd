@@ -7326,7 +7326,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </element>
 <element name="C15" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="29.646884375" y="28.0771625" smashed="yes" rot="R270">
 <attribute name="NAME" x="30.408884375" y="28.0771625" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-00810" x="15.676884375" y="35.6971625" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="CAP-08390" x="15.676884375" y="35.6971625" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="28.884884375" y="28.0771625" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="C4" library="SparkFun-Capacitors" package="0603" value="4.7uF" x="19.6113375" y="28.3337" smashed="yes" rot="R180">
@@ -7526,14 +7526,14 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <via x="30.8229" y="18.943321875" extent="1-16" drill="0.3048"/>
 <via x="13.053059375" y="10.068559375" extent="1-16" drill="0.3048"/>
 <via x="5.466078125" y="10.195559375" extent="1-16" drill="0.3048"/>
-<via x="15.9131" y="6.2484" extent="1-16" drill="0.3048"/>
+<via x="15.9385" y="4.831078125" extent="1-16" drill="0.3048"/>
 <via x="31.793178125" y="1.3843" extent="1-16" drill="0.3048"/>
 <via x="37.152578125" y="6.215378125" extent="1-16" drill="0.3048"/>
 <via x="37.203378125" y="32.369759375" extent="1-16" drill="0.3048"/>
 <via x="31.666178125" y="36.91381875" extent="1-16" drill="0.3048"/>
 <via x="1.000759375" y="5.181596875" extent="1-16" drill="0.3048"/>
 <via x="5.953759375" y="0.78485625" extent="1-16" drill="0.3048"/>
-<via x="10.030459375" y="6.4465125" extent="1-16" drill="0.3048"/>
+<via x="10.01521875" y="4.8336125" extent="1-16" drill="0.3048"/>
 <via x="33.032696875" y="16.946884375" extent="1-16" drill="0.3048"/>
 <via x="27.165296875" y="13.58900625" extent="1-16" drill="0.3048"/>
 <via x="27.221175" y="16.83258125" extent="1-16" drill="0.3048"/>
@@ -7543,7 +7543,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <contactref element="J6" pad="2"/>
 <via x="9.3319625" y="19.715475" extent="1-16" drill="0.3048"/>
 <via x="13.662659375" y="19.664678125" extent="1-16" drill="0.3048"/>
-<via x="5.22731875" y="6.40333125" extent="1-16" drill="0.3048"/>
+<via x="6.33221875" y="4.518653125" extent="1-16" drill="0.3048"/>
 <polygon width="0.2032" layer="1" thermals="no">
 <vertex x="3.9522375" y="21.59"/>
 <vertex x="3.9522375" y="18.168621875"/>
@@ -7556,6 +7556,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <vertex x="17.78" y="13.97"/>
 <vertex x="22.86" y="13.97"/>
 </polygon>
+<via x="0.543559375" y="10.15745625" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="SDA1">
 </signal>
@@ -7640,8 +7641,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="25.4" y1="20.74" x2="26.771603125" y2="20.74" width="0.2032" layer="1"/>
 <wire x1="29.646884375" y1="28.9271625" x2="29.652859375" y2="28.9331375" width="0.508" layer="1"/>
 <wire x1="29.652859375" y1="28.9331375" x2="31.14801875" y2="28.9331375" width="0.508" layer="1"/>
-<wire x1="32.778" y1="29.21" x2="31.42488125" y2="29.21" width="0.2032" layer="1"/>
-<wire x1="31.42488125" y1="29.21" x2="31.14801875" y2="28.9331375" width="0.2032" layer="1"/>
+<wire x1="32.778" y1="29.21" x2="32.070040625" y2="29.21" width="0.2032" layer="1"/>
+<wire x1="32.070040625" y1="29.21" x2="31.793178125" y2="28.9331375" width="0.2032" layer="1"/>
+<wire x1="31.793178125" y1="28.9331375" x2="31.14801875" y2="28.9331375" width="0.2032" layer="1"/>
 <wire x1="28.4226" y1="21.58238125" x2="31.14801875" y2="21.58238125" width="0.2032" layer="16"/>
 <contactref element="ON_LED" pad="2"/>
 <wire x1="15.308578125" y1="1.69418125" x2="16.5608" y2="1.69418125" width="0.2032" layer="16"/>
@@ -7664,7 +7666,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <contactref element="J6" pad="1"/>
 <polygon width="0.2032" layer="1" thermals="no">
 <vertex x="0" y="15.51431875"/>
-<vertex x="4.745725" y="15.512015625"/>
 <vertex x="4.745725" y="15.512015625"/>
 <vertex x="5.429634375" y="16.195925"/>
 <vertex x="5.429634375" y="17.524546875"/>
@@ -7691,6 +7692,13 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="7.23188125" y1="8.16" x2="5.525" y2="8.16" width="0.508" layer="1"/>
 <wire x1="7.62" y1="3.7592" x2="7.6230375" y2="3.7622375" width="0.508" layer="1"/>
 <wire x1="7.6230375" y1="7.76884375" x2="7.6230375" y2="3.7622375" width="0.508" layer="1"/>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="18.415" y="9.525"/>
+<vertex x="0" y="9.525"/>
+<vertex x="0" y="8.255"/>
+<vertex x="2.54" y="5.715"/>
+<vertex x="18.415" y="5.715"/>
+</polygon>
 </signal>
 <signal name="VCC">
 <contactref element="C14" pad="1"/>
@@ -7853,16 +7861,14 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="4,1,c12ba4b5057170ee"/>
-<approved hash="4,1,4328a4a1866c29e1"/>
 <approved hash="4,1,3e8e3f9c27a22e10"/>
-<approved hash="4,16,c12ba4b5057170ee"/>
-<approved hash="4,16,4328a4a1866c29e1"/>
 <approved hash="4,16,3e8e3f9c27a22e10"/>
 <approved hash="19,16,030558bcb5fb16ac"/>
-<approved hash="19,16,d9465d2296025666"/>
 <approved hash="19,16,cd6fa9ad26da751e"/>
 <approved hash="23,1,f2afa5dda6e5f197"/>
+<approved hash="19,16,53bcf62c1cf8fd68"/>
+<approved hash="4,1,e6d50e650da1a758"/>
+<approved hash="4,16,e6d50e650da1a758"/>
 </errors>
 </board>
 </drawing>
