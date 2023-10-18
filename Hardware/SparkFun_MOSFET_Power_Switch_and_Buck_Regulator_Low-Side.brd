@@ -8250,7 +8250,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$24" library="output" package="MOSFET_0" value="" x="18.45818125" y="18.702015625" smashed="yes" rot="MR0"/>
 <element name="U$25" library="output" package="POWER_1" value="" x="18.696940625" y="16.5735" smashed="yes" rot="MR0"/>
 <element name="U$26" library="output" package="SWITCH_2" value="" x="18.760440625" y="14.23161875" smashed="yes" rot="MR0"/>
-<element name="J4" library="SparkFun-Connectors" package="1X04_SMD_VERTICAL_COMBO" value="1X04_SMD_STRAIGHT_COMBO" x="33.02" y="22.86" smashed="yes" rot="R270">
+<element name="J4" library="SparkFun-Connectors" package="1X04_SMD_VERTICAL_COMBO" value="SMD" x="33.02" y="22.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.878" y="23.241" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="PROD_ID" value="CONN-08511" x="33.02" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="29.404" y="23.368" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
