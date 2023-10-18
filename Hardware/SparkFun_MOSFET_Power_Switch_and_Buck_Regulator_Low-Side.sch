@@ -20324,30 +20324,6 @@ Part Number: HA-522</description>
 <smd name="1" x="0" y="0.889" dx="3" dy="0.9" layer="1" cream="no"/>
 <smd name="2" x="0" y="-0.889" dx="3" dy="0.9" layer="1" cream="no"/>
 </package>
-<package name="JST04_1MM_RA">
-<description>&lt;h3&gt;SMD- 4 Pin Right Angle &lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.2032" layer="21"/>
-<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.2032" layer="21"/>
-<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.2032" layer="21"/>
-<circle x="-1.5094" y="0.9604" radius="0.1016" width="0.2032" layer="21"/>
-<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
 <package name="1X04_SOLDER_PADS">
 <smd name="2" x="0" y="0.889" dx="3" dy="0.9" layer="1" cream="no"/>
 <smd name="1" x="0" y="2.667" dx="3" dy="0.9" layer="1" cream="no"/>
@@ -20388,6 +20364,30 @@ Part Number: HA-522</description>
 <wire x1="3" y1="3" x2="3.3" y2="3" width="0.1" layer="51"/>
 <wire x1="3.3" y1="3" x2="3.3" y2="3.5" width="0.1" layer="51"/>
 <wire x1="3.3" y1="3.5" x2="3" y2="3.5" width="0.1" layer="51"/>
+</package>
+<package name="JST04_1MM_RA">
+<description>&lt;h3&gt;SMD- 4 Pin Right Angle &lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.2032" layer="21"/>
+<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.2032" layer="21"/>
+<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.2032" layer="21"/>
+<circle x="-2.5" y="0.3" radius="0.1016" width="0.2032" layer="21"/>
+<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
+<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
+<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -22970,6 +22970,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <circle x="-1.27" y="0" radius="1.02390625" width="0" layer="30"/>
 <circle x="1.27" y="0" radius="0.508" width="0" layer="29"/>
 </package>
+<package name="PANASONIC_SMINI2-F5-B">
+<description>From http://www.semicon.panasonic.co.jp/ds4/DZ2J150_E.pdf</description>
+<wire x1="-1.897" y1="0.625" x2="-1.897" y2="-0.625" width="0.2032" layer="21"/>
+<smd name="C" x="-1.2" y="0" dx="0.9" dy="1.1" layer="1"/>
+<smd name="A" x="1.2" y="0" dx="0.9" dy="0.9" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.85" y1="0.625" x2="0.85" y2="0.625" width="0.127" layer="21"/>
+<wire x1="-0.85" y1="-0.625" x2="0.85" y2="-0.625" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE-SCHOTTKY">
@@ -23053,6 +23063,25 @@ Allows current flow when high potential at base.</description>
 <pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
 <pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
+</symbol>
+<symbol name="DIODE-ZENER">
+<description>&lt;h3&gt;Zener Diode&lt;/h3&gt;
+Allows current flow in one direction, but allows reverse flow when above breakdown voltage.</description>
+<wire x1="1.27" y1="0.889" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-0.889" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.889" x2="1.778" y2="1.397" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-0.889" x2="0.762" y2="-1.397" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.032" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.032" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-1.27" y="1.27"/>
+<vertex x="1.27" y="0"/>
+<vertex x="-1.27" y="-1.27"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -23384,6 +23413,87 @@ Allows current flow when high potential at base.</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="DIODE-ZENER" prefix="D">
+<description>&lt;h3&gt;Zener Diode&lt;/h3&gt;
+&lt;p&gt;A Zener diode allows current to flow from its anode to its cathode like a normal semiconductor diode, but it also permits current to flow in the reverse direction when its "Zener voltage" is reached. - WIkipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODE-ZENER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-MM3Z3V3T1G" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-11284"/>
+<attribute name="VALUE" value="3.3V"/>
+</technology>
+</technologies>
+</device>
+<device name="-MMSZ5232BS" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-12442"/>
+<attribute name="VALUE" value="5.6V"/>
+</technology>
+</technologies>
+</device>
+<device name="-DZ2J150M0L" package="PANASONIC_SMINI2-F5-B">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-12989"/>
+<attribute name="VALUE" value="15V"/>
+</technology>
+</technologies>
+</device>
+<device name="-BZT52C3V6S" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-08199" constant="no"/>
+<attribute name="VALUE" value="3.6V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-MMBZ5233BLT1G" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-14123"/>
+<attribute name="VALUE" value="6V"/>
+</technology>
+</technologies>
+</device>
+<device name="-BZX84C15LT3G" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-15071" constant="no"/>
+<attribute name="VALUE" value="15V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-LED">
@@ -23554,7 +23664,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-00819"/>
-<attribute name="VALUE" value="RED" constant="no"/>
+<attribute name="VALUE" value="Red"/>
 </technology>
 </technologies>
 </device>
@@ -23566,7 +23676,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-09912"/>
-<attribute name="VALUE" value="RED" constant="no"/>
+<attribute name="VALUE" value="Red"/>
 </technology>
 </technologies>
 </device>
@@ -23578,7 +23688,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-11154" constant="no"/>
-<attribute name="VALUE" value="Red" constant="no"/>
+<attribute name="VALUE" value="Red"/>
 </technology>
 </technologies>
 </device>
@@ -23590,6 +23700,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-09912" constant="no"/>
+<attribute name="VALUE" value="Red"/>
 </technology>
 </technologies>
 </device>
@@ -23601,7 +23712,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-16511" constant="no"/>
-<attribute name="VALUE" value="Red" constant="no"/>
+<attribute name="VALUE" value="Red"/>
 </technology>
 </technologies>
 </device>
@@ -23613,7 +23724,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-16757" constant="no"/>
-<attribute name="VALUE" value="RED" constant="no"/>
+<attribute name="VALUE" value="Red"/>
 </technology>
 </technologies>
 </device>
@@ -23625,7 +23736,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-16865"/>
-<attribute name="VALUE" value="RED"/>
+<attribute name="VALUE" value="Red"/>
 </technology>
 </technologies>
 </device>
@@ -23637,6 +23748,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-17976" constant="no"/>
+<attribute name="VALUE" value="Red"/>
 </technology>
 </technologies>
 </device>
@@ -24493,7 +24605,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="H2" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
-<part name="ON" library="SparkFun-LED" deviceset="LED-RED" device="_0603-KB" value="RED"/>
+<part name="ON" library="SparkFun-LED" deviceset="LED-RED" device="_0603-KB" value="Red"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
 <part name="R7" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="30.1KOHM" device="-0603-1/10W-1%" value="30.1k"/>
@@ -24539,10 +24651,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="MEAS" library="SparkFun-Jumpers" deviceset="JUMPER-COMBO_2_NC_TRACE" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="POWER" library="SparkFun-LED" deviceset="LED-RED" device="_0603-KB" value="RED"/>
+<part name="POWER" library="SparkFun-LED" deviceset="LED-RED" device="_0603-KB" value="Red"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J4" library="SparkFun-Connectors" deviceset="CONN_04" device="SMD_STRAIGHT_COMBO" value="SMD"/>
+<part name="J4" library="SparkFun-Connectors" deviceset="CONN_04" device="SMD_STRAIGHT_COMBO" value="1X04_SMD_STRAIGHT_COMBO"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".2_INCH" value="SFE_LOGO_NAME_FLAME.2_INCH"/>
 <part name="PWR_LED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
 <part name="ON_LED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
@@ -24554,6 +24666,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SPECIAL_INSTRUCTIONS" device="-ORDERING"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-DZ2J150M0L" value="15V"/>
 </parts>
 <sheets>
 <sheet>
@@ -24580,9 +24693,9 @@ to disable ON LED.</text>
 to disable Power LED.</text>
 <wire x1="158.242" y1="133.858" x2="140.97" y2="119.888" width="0.1524" layer="97" style="shortdash"/>
 <text x="232.156" y="131.572" size="1.778" layer="97" font="vector" rot="R180">(DNP)</text>
-<text x="27.94" y="124.46" size="1.778" layer="97" font="vector">Cut "MEAS" Jumper 
+<text x="23.622" y="120.65" size="1.778" layer="97" font="vector">Cut "MEAS" Jumper 
 to measure current consuption</text>
-<wire x1="50.8" y1="160.02" x2="40.64" y2="129.54" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="40.64" y1="160.02" x2="42.418" y2="128.016" width="0.1524" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="LOGO1" gate="G$1" x="129.54" y="15.24" smashed="yes"/>
@@ -24677,19 +24790,19 @@ to measure current consuption</text>
 <attribute name="NAME" x="81.788" y="66.04" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="86.614" y="61.976" size="1.016" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="GND11" gate="1" x="43.18" y="152.4" smashed="yes">
-<attribute name="VALUE" x="43.18" y="152.146" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND11" gate="1" x="48.26" y="149.86" smashed="yes">
+<attribute name="VALUE" x="48.26" y="149.606" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="J3" gate="G$1" x="27.94" y="154.94" smashed="yes">
-<attribute name="VALUE" x="15.24" y="165.1" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="17.78" y="154.94" size="1.778" layer="95" font="vector"/>
+<instance part="J3" gate="G$1" x="25.4" y="154.94" smashed="yes">
+<attribute name="VALUE" x="5.08" y="165.1" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="15.24" y="154.94" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="J5" gate="J1" x="218.44" y="73.66" smashed="yes" rot="R180">
 <attribute name="VALUE" x="220.98" y="78.486" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="220.98" y="68.072" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="SUPPLY3" gate="G$1" x="43.18" y="165.1" smashed="yes">
-<attribute name="VALUE" x="43.18" y="167.894" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY3" gate="G$1" x="30.48" y="167.64" smashed="yes">
+<attribute name="VALUE" x="30.48" y="170.434" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY4" gate="G$1" x="60.96" y="165.1" smashed="yes">
 <attribute name="VALUE" x="60.96" y="167.894" size="1.778" layer="96" font="vector" align="bottom-center"/>
@@ -24749,8 +24862,8 @@ to measure current consuption</text>
 <instance part="SUPPLY6" gate="G$1" x="205.74" y="53.34" smashed="yes">
 <attribute name="VALUE" x="205.74" y="56.134" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="MEAS" gate="JP1" x="50.8" y="162.56" smashed="yes">
-<attribute name="NAME" x="48.26" y="165.1" size="1.778" layer="95" font="vector"/>
+<instance part="MEAS" gate="JP1" x="40.64" y="162.56" smashed="yes">
+<attribute name="NAME" x="38.1" y="165.1" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="SUPPLY8" gate="G$1" x="160.02" y="165.1" smashed="yes">
 <attribute name="VALUE" x="160.02" y="167.894" size="1.778" layer="96" font="vector" align="bottom-center"/>
@@ -24783,16 +24896,20 @@ to measure current consuption</text>
 <instance part="FD2" gate="G$1" x="233.68" y="30.48" smashed="yes"/>
 <instance part="FD3" gate="G$1" x="231.14" y="27.94" smashed="yes"/>
 <instance part="FD4" gate="G$1" x="233.68" y="27.94" smashed="yes"/>
-<instance part="J6" gate="J1" x="22.86" y="147.32" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="20.32" y="152.146" size="1.778" layer="96" font="vector" rot="MR180"/>
-<attribute name="NAME" x="20.32" y="141.732" size="1.778" layer="95" font="vector" rot="MR180"/>
+<instance part="J6" gate="J1" x="20.32" y="147.32" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="17.78" y="152.146" size="1.778" layer="96" font="vector" rot="MR180"/>
+<attribute name="NAME" x="17.78" y="141.732" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
-<instance part="GND3" gate="1" x="33.02" y="139.7" smashed="yes">
-<attribute name="VALUE" x="33.02" y="139.446" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND3" gate="1" x="30.48" y="139.7" smashed="yes">
+<attribute name="VALUE" x="30.48" y="139.446" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="LOGO3" gate="G$1" x="226.06" y="33.02" smashed="yes"/>
 <instance part="SUPPLY1" gate="G$1" x="53.34" y="76.2" smashed="yes">
 <attribute name="VALUE" x="53.34" y="78.994" size="1.778" layer="96" font="vector" align="bottom-center"/>
+</instance>
+<instance part="D1" gate="G$1" x="48.26" y="157.48" smashed="yes" rot="R90">
+<attribute name="NAME" x="46.228" y="154.94" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="50.292" y="154.94" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -24841,14 +24958,18 @@ to measure current consuption</text>
 <wire x1="91.44" y1="43.18" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="30.48" y1="157.48" x2="43.18" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="157.48" x2="43.18" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="160.02" x2="43.18" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="160.02" x2="43.18" y2="157.48" width="0.1524" layer="91"/>
-<junction x="43.18" y="157.48"/>
-<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="27.94" y1="157.48" x2="30.48" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="160.02" x2="30.48" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="GNDBREAK"/>
 <pinref part="J3" gate="G$1" pin="GND"/>
+<wire x1="30.48" y1="157.48" x2="30.48" y2="144.78" width="0.1524" layer="91"/>
+<junction x="30.48" y="157.48"/>
+<pinref part="J6" gate="J1" pin="2"/>
+<wire x1="27.94" y1="144.78" x2="30.48" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="30.48" y1="144.78" x2="30.48" y2="142.24" width="0.1524" layer="91"/>
+<junction x="30.48" y="144.78"/>
+<wire x1="30.48" y1="160.02" x2="30.48" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="E"/>
@@ -24872,10 +24993,9 @@ to measure current consuption</text>
 <pinref part="PWR_LED" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="J6" gate="J1" pin="2"/>
-<wire x1="30.48" y1="144.78" x2="33.02" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="33.02" y1="144.78" x2="33.02" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="48.26" y1="152.4" x2="48.26" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -24966,18 +25086,18 @@ to measure current consuption</text>
 </net>
 <net name="VIN" class="0">
 <segment>
-<wire x1="45.72" y1="162.56" x2="43.18" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="162.56" x2="43.18" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="162.56" x2="33.02" y2="162.56" width="0.1524" layer="91"/>
-<junction x="43.18" y="162.56"/>
+<wire x1="27.94" y1="162.56" x2="30.48" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="PWR"/>
 <pinref part="SUPPLY3" gate="G$1" pin="VIN"/>
 <pinref part="MEAS" gate="JP1" pin="1"/>
-<wire x1="33.02" y1="162.56" x2="43.18" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="162.56" x2="33.02" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="162.56" x2="35.56" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="162.56" x2="33.02" y2="147.32" width="0.1524" layer="91"/>
 <junction x="33.02" y="162.56"/>
 <pinref part="J6" gate="J1" pin="1"/>
-<wire x1="33.02" y1="147.32" x2="30.48" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="147.32" x2="27.94" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="162.56" x2="30.48" y2="167.64" width="0.1524" layer="91"/>
+<junction x="30.48" y="162.56"/>
 </segment>
 </net>
 <net name="LOAD" class="0">
@@ -25018,11 +25138,15 @@ to measure current consuption</text>
 <junction x="68.58" y="162.56"/>
 <pinref part="U1" gate="U1" pin="SHDN"/>
 <pinref part="U1" gate="U1" pin="VIN"/>
-<wire x1="55.88" y1="162.56" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="162.56" x2="48.26" y2="162.56" width="0.1524" layer="91"/>
 <junction x="60.96" y="162.56"/>
+<wire x1="48.26" y1="162.56" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="165.1" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
 <pinref part="MEAS" gate="JP1" pin="2"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="48.26" y1="160.02" x2="48.26" y2="162.56" width="0.1524" layer="91"/>
+<junction x="48.26" y="162.56"/>
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
