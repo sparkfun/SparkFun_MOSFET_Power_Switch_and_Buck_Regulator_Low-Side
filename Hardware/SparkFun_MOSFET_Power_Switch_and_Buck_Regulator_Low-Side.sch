@@ -24563,10 +24563,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 Off</text>
 <text x="213.36" y="99.06" size="2.54" layer="94" font="vector" align="center">Load Connections
 </text>
-<text x="91.44" y="93.98" size="2.54" layer="94" font="vector" align="center">High Voltage Control
+<text x="91.44" y="99.06" size="2.54" layer="94" font="vector" align="center">High Voltage Control
 (Low-side MOSFET Switch)</text>
 <text x="88.9" y="180.34" size="2.54" layer="94" font="vector" align="center">3.3V Buck</text>
-<text x="25.4" y="175.26" size="2.54" layer="97" font="vector" align="center">4.5-12V Input</text>
+<text x="88.9" y="175.26" size="1.778" layer="97" font="vector" align="center">4.5-12V Input</text>
 <text x="166.116" y="11.43" size="2.54" layer="94" font="vector">Nathan Seidle</text>
 <text x="149.098" y="7.112" size="2.54" layer="94" font="vector">Revised by: Pete Lewis</text>
 <wire x1="180.34" y1="185.42" x2="180.34" y2="106.68" width="0.1524" layer="97" style="shortdash"/>
@@ -24729,7 +24729,7 @@ to measure current consuption</text>
 <instance part="FRAME2" gate="V" x="147.32" y="0" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94" font="vector"/>
-<attribute name="DRAWING_NAME" x="162.814" y="17.78" size="2.7432" layer="94" font="vector"/>
+<attribute name="DRAWING_NAME" x="162.814" y="17.78" size="1.27" layer="94" font="vector"/>
 <attribute name="DESIGNER" x="170.434" y="11.176" size="2.7432" layer="94" font="vector"/>
 <attribute name="REV" x="236.22" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
