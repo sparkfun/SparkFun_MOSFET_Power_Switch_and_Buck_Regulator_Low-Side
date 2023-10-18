@@ -23,7 +23,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="4" visible="no" active="yes"/>
@@ -8697,12 +8697,12 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <errors>
 <approved hash="4,1,3e8e3f9c27a22e10"/>
 <approved hash="4,16,3e8e3f9c27a22e10"/>
-<approved hash="19,16,030558bcb5fb16ac"/>
 <approved hash="19,16,cd6fa9ad26da751e"/>
 <approved hash="23,1,f2afa5dda6e5f197"/>
-<approved hash="19,16,53bcf62c1cf8fd68"/>
 <approved hash="4,1,e6d50e650da1a758"/>
 <approved hash="4,16,e6d50e650da1a758"/>
+<approved hash="19,16,d9465d2296025666"/>
+<approved hash="19,16,863893678db06001"/>
 </errors>
 </board>
 </drawing>
