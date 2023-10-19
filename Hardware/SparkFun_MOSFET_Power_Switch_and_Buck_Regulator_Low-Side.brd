@@ -8199,8 +8199,8 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <via x="24.820878125" y="26.7817625" extent="1-16" drill="0.3048"/>
 <via x="22.153875" y="26.774140625" extent="1-16" drill="0.3048"/>
 <via x="18.308321875" y="32.519621875" extent="1-16" drill="0.3048"/>
-<via x="18.796" y="29.784040625" extent="1-16" drill="0.3048"/>
-<via x="17.409159375" y="28.3083" extent="1-16" drill="0.3048"/>
+<via x="17.5742625" y="30.017721875" extent="1-16" drill="0.3048"/>
+<via x="17.5514" y="27.47771875" extent="1-16" drill="0.3048"/>
 <via x="35.209478125" y="20.14728125" extent="1-16" drill="0.3048"/>
 <via x="30.8229" y="20.213321875" extent="1-16" drill="0.3048"/>
 <via x="13.053059375" y="10.068559375" extent="1-16" drill="0.3048"/>
@@ -8581,8 +8581,8 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <approved hash="19,1,877281904a324cd0"/>
 <approved hash="19,1,f170f7887a2a7cd2"/>
 <approved hash="19,1,f3f8f3e87e4a7e5a"/>
-<approved hash="19,16,283bafea67c97b78"/>
-<approved hash="19,16,658591661846d4a5"/>
+<approved hash="19,16,dbf93eeea63a7b2d"/>
+<approved hash="19,16,d49ec99b46dcc0b9"/>
 </errors>
 </board>
 </drawing>

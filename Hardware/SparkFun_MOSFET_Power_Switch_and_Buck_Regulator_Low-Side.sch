@@ -24579,7 +24579,7 @@ Off</text>
 to disable ON LED.</text>
 <text x="114.3" y="114.3" size="1.778" layer="97" font="vector">Cut "PWR_LED" Jumper 
 to disable Power LED.</text>
-<wire x1="158.242" y1="133.858" x2="140.97" y2="119.888" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="165.862" y1="133.858" x2="140.97" y2="119.888" width="0.1524" layer="97" style="shortdash"/>
 <text x="232.156" y="131.572" size="1.778" layer="97" font="vector" rot="R180">(DNP)</text>
 <text x="26.162" y="120.65" size="1.778" layer="97" font="vector">Cut "MEAS" Jumper 
 to measure current consuption</text>
@@ -24611,17 +24611,17 @@ to measure current consuption</text>
 <attribute name="NAME" x="103.759" y="164.084" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="108.839" y="164.084" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="C12" gate="G$1" x="132.08" y="144.78" smashed="yes" rot="MR0">
-<attribute name="NAME" x="130.556" y="147.701" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="130.556" y="142.621" size="1.778" layer="96" font="vector" rot="MR0"/>
+<instance part="C12" gate="G$1" x="142.24" y="154.94" smashed="yes" rot="MR0">
+<attribute name="NAME" x="140.716" y="157.861" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="140.716" y="152.781" size="1.016" layer="96" font="vector" rot="MR0"/>
 </instance>
 <instance part="C14" gate="G$1" x="60.96" y="154.94" smashed="yes">
 <attribute name="NAME" x="55.626" y="157.48" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="53.086" y="153.162" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C15" gate="G$1" x="137.16" y="144.78" smashed="yes">
-<attribute name="NAME" x="138.684" y="147.701" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="138.684" y="142.621" size="1.778" layer="96" font="vector"/>
+<instance part="C15" gate="G$1" x="147.32" y="154.94" smashed="yes">
+<attribute name="NAME" x="148.844" y="157.861" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="148.844" y="152.781" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="C4" gate="G$1" x="68.58" y="154.94" smashed="yes">
 <attribute name="NAME" x="69.342" y="157.48" size="1.778" layer="95" font="vector"/>
@@ -24650,18 +24650,18 @@ to measure current consuption</text>
 <instance part="GND24" gate="1" x="111.76" y="139.7" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="111.76" y="139.446" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
-<instance part="GND25" gate="1" x="132.08" y="137.16" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="132.08" y="136.906" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+<instance part="GND25" gate="1" x="142.24" y="147.32" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="142.24" y="147.066" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
-<instance part="GND26" gate="1" x="137.16" y="137.16" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="137.16" y="136.906" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+<instance part="GND26" gate="1" x="147.32" y="147.32" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="147.32" y="147.066" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
 <instance part="U1" gate="U1" x="88.9" y="157.48" smashed="yes">
 <attribute name="VALUE" x="81.28" y="147.574" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="81.28" y="165.354" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="SUPPLY30" gate="G$1" x="137.16" y="165.1" smashed="yes">
-<attribute name="VALUE" x="137.16" y="167.894" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY30" gate="G$1" x="147.32" y="165.1" smashed="yes">
+<attribute name="VALUE" x="147.32" y="167.894" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="Q2" gate="NMOS" x="88.9" y="48.26" smashed="yes">
 <attribute name="NAME" x="93.98" y="48.26" size="1.778" layer="95" font="vector"/>
@@ -24674,26 +24674,26 @@ to measure current consuption</text>
 <attribute name="NAME" x="67.056" y="45.72" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="70.104" y="45.72" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="D2" gate="G$1" x="83.82" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="81.788" y="66.04" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="86.614" y="61.976" size="1.016" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D2" gate="G$1" x="83.82" y="63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="81.788" y="60.96" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="86.614" y="56.896" size="1.016" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="J3" gate="G$1" x="38.1" y="154.94" smashed="yes">
 <attribute name="VALUE" x="17.78" y="165.1" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="27.94" y="154.94" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J5" gate="J1" x="218.44" y="73.66" smashed="yes" rot="R180">
-<attribute name="VALUE" x="220.98" y="78.486" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="220.98" y="68.072" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="J5" gate="J1" x="215.9" y="73.66" smashed="yes" rot="R180">
+<attribute name="VALUE" x="218.44" y="78.486" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="218.44" y="68.072" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="SUPPLY3" gate="G$1" x="43.18" y="167.64" smashed="yes">
-<attribute name="VALUE" x="43.18" y="170.434" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY3" gate="G$1" x="43.18" y="165.1" smashed="yes">
+<attribute name="VALUE" x="43.18" y="167.894" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY4" gate="G$1" x="60.96" y="165.1" smashed="yes">
-<attribute name="VALUE" x="60.96" y="167.894" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY4" gate="G$1" x="63.5" y="165.1" smashed="yes">
+<attribute name="VALUE" x="63.5" y="167.894" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY7" gate="G$1" x="83.82" y="73.66" smashed="yes">
-<attribute name="VALUE" x="83.82" y="76.454" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY7" gate="G$1" x="83.82" y="68.58" smashed="yes">
+<attribute name="VALUE" x="83.82" y="71.374" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY9" gate="G$1" x="205.74" y="76.2" smashed="yes">
 <attribute name="VALUE" x="205.74" y="78.994" size="1.778" layer="96" font="vector" align="bottom-center"/>
@@ -24740,9 +24740,9 @@ to measure current consuption</text>
 <instance part="SUPPLY5" gate="G$1" x="198.12" y="147.32" smashed="yes">
 <attribute name="VALUE" x="198.12" y="150.114" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="J2" gate="J1" x="218.44" y="48.26" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="220.98" y="43.434" size="1.778" layer="96" font="vector" rot="MR0"/>
-<attribute name="NAME" x="220.98" y="53.848" size="1.778" layer="95" font="vector" rot="MR0"/>
+<instance part="J2" gate="J1" x="215.9" y="48.26" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="218.44" y="43.434" size="1.778" layer="96" font="vector" rot="MR0"/>
+<attribute name="NAME" x="218.44" y="53.848" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 <instance part="SUPPLY6" gate="G$1" x="205.74" y="53.34" smashed="yes">
 <attribute name="VALUE" x="205.74" y="56.134" size="1.778" layer="96" font="vector" align="bottom-center"/>
@@ -24750,28 +24750,28 @@ to measure current consuption</text>
 <instance part="MEAS" gate="JP1" x="53.34" y="162.56" smashed="yes">
 <attribute name="NAME" x="50.8" y="165.1" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="SUPPLY8" gate="G$1" x="160.02" y="165.1" smashed="yes">
-<attribute name="VALUE" x="160.02" y="167.894" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY8" gate="G$1" x="167.64" y="165.1" smashed="yes">
+<attribute name="VALUE" x="167.64" y="167.894" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="POWER" gate="G$1" x="160.02" y="160.02" smashed="yes">
-<attribute name="NAME" x="156.591" y="155.448" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="161.925" y="155.448" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="POWER" gate="G$1" x="167.64" y="160.02" smashed="yes">
+<attribute name="NAME" x="164.211" y="155.448" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="169.545" y="155.448" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="R1" gate="G$1" x="160.02" y="147.32" smashed="yes" rot="R270">
-<attribute name="NAME" x="161.544" y="147.32" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="158.496" y="147.32" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
+<instance part="R1" gate="G$1" x="167.64" y="147.32" smashed="yes" rot="R270">
+<attribute name="NAME" x="169.164" y="147.32" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="166.116" y="147.32" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
-<instance part="GND2" gate="1" x="160.02" y="124.46" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="160.02" y="124.206" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+<instance part="GND2" gate="1" x="167.64" y="124.46" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="167.64" y="124.206" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
 <instance part="J4" gate="J1" x="226.06" y="162.56" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="231.14" y="155.194" size="1.778" layer="96" font="vector" rot="MR0"/>
 <attribute name="NAME" x="231.14" y="170.688" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 <instance part="LOGO2" gate="G$1" x="55.88" y="0" smashed="yes"/>
-<instance part="PWR_LED" gate="G$1" x="160.02" y="134.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="162.814" y="134.62" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
-<attribute name="VALUE" x="163.068" y="134.62" size="1.778" layer="96" font="vector" rot="R90" align="center"/>
+<instance part="PWR_LED" gate="G$1" x="167.64" y="134.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="170.434" y="134.62" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="170.688" y="134.62" size="1.778" layer="96" font="vector" rot="R90" align="center"/>
 </instance>
 <instance part="ON_LED" gate="G$1" x="53.34" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="50.292" y="68.58" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
@@ -24799,12 +24799,12 @@ to measure current consuption</text>
 <net name="GND" class="1">
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="139.7" x2="137.16" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="149.86" x2="147.32" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="GND26" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="139.7" x2="132.08" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="149.86" x2="142.24" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -24870,7 +24870,7 @@ to measure current consuption</text>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="160.02" y1="129.54" x2="160.02" y2="127" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="129.54" x2="167.64" y2="127" width="0.1524" layer="91"/>
 <pinref part="PWR_LED" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -24920,16 +24920,16 @@ to measure current consuption</text>
 <wire x1="127" y1="152.4" x2="129.54" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="152.4" x2="129.54" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="162.56" x2="132.08" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="162.56" x2="142.24" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="162.56" x2="137.16" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="162.56" x2="137.16" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="162.56" x2="147.32" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="162.56" x2="147.32" y2="162.56" width="0.1524" layer="91"/>
 <junction x="129.54" y="162.56"/>
-<junction x="132.08" y="162.56"/>
-<wire x1="137.16" y1="162.56" x2="132.08" y2="162.56" width="0.1524" layer="91"/>
+<junction x="142.24" y="162.56"/>
+<wire x1="147.32" y1="162.56" x2="142.24" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="162.56" x2="127" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="165.1" x2="137.16" y2="162.56" width="0.1524" layer="91"/>
-<junction x="137.16" y="162.56"/>
+<wire x1="147.32" y1="165.1" x2="147.32" y2="162.56" width="0.1524" layer="91"/>
+<junction x="147.32" y="162.56"/>
 <pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="SUPPLY30" gate="G$1" pin="3.3V"/>
 </segment>
@@ -24952,7 +24952,7 @@ to measure current consuption</text>
 <segment>
 <pinref part="POWER" gate="G$1" pin="A"/>
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
-<wire x1="160.02" y1="165.1" x2="160.02" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="165.1" x2="167.64" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
@@ -24972,29 +24972,29 @@ to measure current consuption</text>
 <junction x="45.72" y="162.56"/>
 <pinref part="J6" gate="J1" pin="1"/>
 <wire x1="45.72" y1="147.32" x2="40.64" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="162.56" x2="43.18" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="162.56" x2="43.18" y2="165.1" width="0.1524" layer="91"/>
 <junction x="43.18" y="162.56"/>
 </segment>
 </net>
 <net name="LOAD" class="0">
 <segment>
-<wire x1="210.82" y1="71.12" x2="205.74" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="71.12" x2="205.74" y2="71.12" width="0.1524" layer="91"/>
 <label x="205.74" y="71.12" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J5" gate="J1" pin="2"/>
 </segment>
 <segment>
 <pinref part="Q2" gate="NMOS" pin="D"/>
 <wire x1="91.44" y1="53.34" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="55.88" x2="91.44" y2="65.786" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="65.786" x2="93.98" y2="65.786" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="55.88" x2="91.44" y2="58.166" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="58.166" x2="93.98" y2="58.166" width="0.1524" layer="91"/>
 <junction x="91.44" y="55.88"/>
-<label x="93.98" y="65.786" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="93.98" y="58.166" size="1.27" layer="95" font="vector" xref="yes"/>
 <wire x1="91.44" y1="55.88" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="83.82" y1="55.88" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="55.88" x2="83.82" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="210.82" y1="48.26" x2="205.74" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="48.26" x2="205.74" y2="48.26" width="0.1524" layer="91"/>
 <label x="205.74" y="48.26" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J2" gate="J1" pin="1"/>
 </segment>
@@ -25009,24 +25009,26 @@ to measure current consuption</text>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="162.56" x2="68.58" y2="162.56" width="0.1524" layer="91"/>
 <junction x="76.2" y="162.56"/>
-<wire x1="68.58" y1="162.56" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="162.56" x2="63.5" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="162.56" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="160.02" x2="68.58" y2="162.56" width="0.1524" layer="91"/>
 <junction x="68.58" y="162.56"/>
 <pinref part="U1" gate="U1" pin="SHDN"/>
 <pinref part="U1" gate="U1" pin="VIN"/>
 <junction x="60.96" y="162.56"/>
 <wire x1="58.42" y1="162.56" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="165.1" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
 <pinref part="MEAS" gate="JP1" pin="2"/>
+<wire x1="63.5" y1="162.56" x2="63.5" y2="165.1" width="0.1524" layer="91"/>
+<junction x="63.5" y="162.56"/>
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="83.82" y1="73.66" x2="83.82" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="68.58" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<wire x1="210.82" y1="73.66" x2="205.74" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="73.66" x2="205.74" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="73.66" x2="205.74" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="J5" gate="J1" pin="1"/>
 <pinref part="SUPPLY9" gate="G$1" pin="VCC"/>
@@ -25048,7 +25050,7 @@ to measure current consuption</text>
 <junction x="210.82" y="144.78"/>
 </segment>
 <segment>
-<wire x1="210.82" y1="50.8" x2="205.74" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="50.8" x2="205.74" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="50.8" x2="205.74" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="VCC"/>
 <pinref part="J2" gate="J1" pin="2"/>
@@ -25080,13 +25082,13 @@ to measure current consuption</text>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="POWER" gate="G$1" pin="C"/>
-<wire x1="160.02" y1="154.94" x2="160.02" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="154.94" x2="167.64" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="1">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="160.02" y1="142.24" x2="160.02" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="142.24" x2="167.64" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="PWR_LED" gate="G$1" pin="2"/>
 </segment>
 </net>
