@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -6928,16 +6928,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.651" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="1.651" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
 </package>
-<package name="PANASONIC_SMINI2-F5-B">
-<description>From http://www.semicon.panasonic.co.jp/ds4/DZ2J150_E.pdf</description>
-<wire x1="-1.897" y1="0.625" x2="-1.897" y2="-0.625" width="0.2032" layer="21"/>
-<smd name="C" x="-1.2" y="0" dx="0.9" dy="1.1" layer="1"/>
-<smd name="A" x="1.2" y="0" dx="0.9" dy="0.9" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="-0.85" y1="0.625" x2="0.85" y2="0.625" width="0.127" layer="21"/>
-<wire x1="-0.85" y1="-0.625" x2="0.85" y2="-0.625" width="0.127" layer="21"/>
-</package>
 </packages>
 </library>
 <library name="SparkFun-Resistors">
@@ -8163,11 +8153,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$42" library="output" package="AND8" value="" x="18.813784375" y="16.29918125" smashed="yes" rot="MR0"/>
 <element name="U$43" library="output" package="LOW0" value="" x="21.043903125" y="13.6194875" smashed="yes" rot="MR0"/>
 <element name="U$44" library="output" package="SIDE0" value="" x="17.233903125" y="13.6194875" smashed="yes" rot="MR0"/>
-<element name="D1" library="SparkFun-DiscreteSemi" package="PANASONIC_SMINI2-F5-B" value="15V" x="16.0274" y="16.418559375" smashed="yes" rot="R90">
-<attribute name="NAME" x="15.2654" y="16.418559375" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-12989" x="16.0274" y="16.418559375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="16.7894" y="16.418559375" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
-</element>
 <element name="U$34" library="output" package="PWR9" value="" x="33.7693" y="28.039059375" smashed="yes"/>
 <element name="U$35" library="output" package="ON10" value="" x="13.85061875" y="2.308859375" smashed="yes"/>
 </elements>
@@ -8251,7 +8236,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <vertex x="22.86" y="13.97"/>
 </polygon>
 <via x="0.543559375" y="10.15745625" extent="1-16" drill="0.3048"/>
-<contactref element="D1" pad="A"/>
 </signal>
 <signal name="SDA1">
 </signal>
@@ -8501,7 +8485,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </polygon>
 <wire x1="16.47698125" y1="13.97" x2="24.13" y2="13.97" width="2.032" layer="16"/>
 <wire x1="24.13" y1="13.97" x2="25.4" y2="15.24" width="2.032" layer="16"/>
-<contactref element="D1" pad="C"/>
 </signal>
 <signal name="N$1">
 <contactref element="Q2" pad="1"/>
