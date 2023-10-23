@@ -1,9 +1,9 @@
-SparkFun MOSFET Power Switch and Buck Regulator Low-Side
+SparkFun MOSFET Power Switch and Buck Regulator (Low-Side)
 ========================================
 
-[![SparkFun MOSFET Power Switch and Buck Regulator Low-Side](URL for picture of part)](https://www.sparkfun.com/products/23979)
+[![SparkFun MOSFET Power Switch and Buck Regulator (Low-Side)](URL for picture of part)](https://www.sparkfun.com/products/23979)
 
-[*SparkFun MOSFET Power Switch and Buck Regulator Low-Side (COM-23979)*](https://www.sparkfun.com/products/23979)
+[*SparkFun MOSFET Power Switch and Buck Regulator (Low-Side) (COM-23979)*](https://www.sparkfun.com/products/23979)
 
 Digital switch capable of switching DC loads up to 42V. Includes 3.3V Buck Regulator and N-CH MOSFET low-side switch circuit.
 
@@ -19,7 +19,7 @@ Repository Contents
 Documentation
 --------------
 
-* **[Hookup Guide](https://docs.sparkfun.com/SparkFun_MOSFET_Power_Switch_and_Buck_Regulator_Low-Side)** - Basic hookup guide for the MOSFET Power Switch.
+* **[Hookup Guide](https://docs.sparkfun.com/SparkFun_MOSFET_Power_Switch_and_Buck_Regulator_Low-Side)** - Basic hookup guide for the MOSFET Power Switch and Buck Regulator (Low-Side).
 
 
 
