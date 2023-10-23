@@ -24582,7 +24582,7 @@ to disable Power LED.</text>
 <wire x1="165.862" y1="133.858" x2="140.97" y2="119.888" width="0.1524" layer="97" style="shortdash"/>
 <text x="232.156" y="131.572" size="1.778" layer="97" font="vector" rot="R180">(DNP)</text>
 <text x="26.162" y="120.65" size="1.778" layer="97" font="vector">Cut "MEAS" Jumper 
-to measure current consuption</text>
+to measure current consumption</text>
 <wire x1="53.34" y1="160.02" x2="44.958" y2="128.016" width="0.1524" layer="97" style="shortdash"/>
 </plain>
 <instances>
