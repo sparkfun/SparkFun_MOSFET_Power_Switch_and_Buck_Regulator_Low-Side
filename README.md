@@ -1,4 +1,4 @@
-SparkFun MOSFET Power Switch
+SparkFun MOSFET Power Switch and Buck Regulator Low-Side
 ========================================
 
 [![SparkFun Part Name](URL for picture of part)](URL for product on Sparkfun.com)
@@ -19,7 +19,7 @@ Repository Contents
 Documentation
 --------------
 
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the MOSFET Power Switch.
+* **[Hookup Guide](https://docs.sparkfun.com/SparkFun_MOSFET_Power_Switch_and_Buck_Regulator_Low-Side)** - Basic hookup guide for the MOSFET Power Switch.
 
 
 
