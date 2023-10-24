@@ -5,7 +5,7 @@ SparkFun MOSFET Power Switch and Buck Regulator (Low-Side)
 
 [*SparkFun MOSFET Power Switch and Buck Regulator (Low-Side) (COM-23979)*](https://www.sparkfun.com/products/23979)
 
-Digital switch capable of switching DC loads up to 12V. Includes 3.3V Buck Regulator and N-channel MOSFET low-side switch circuit. There is also a flyback diode on the load side.
+Digital switch capable of switching DC loads up to 12V. Includes 3.3V Buck Regulator, N-channel MOSFET low-side switch circuit, and flyback diode on the load side.
 
 
 
