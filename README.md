@@ -5,15 +5,18 @@ SparkFun MOSFET Power Switch and Buck Regulator (Low-Side)
 
 [*SparkFun MOSFET Power Switch and Buck Regulator (Low-Side) (COM-23979)*](https://www.sparkfun.com/products/23979)
 
-Digital switch capable of switching DC loads up to 42V. Includes 3.3V Buck Regulator and N-CH MOSFET low-side switch circuit.
+Digital switch capable of switching DC loads up to 12V. Includes 3.3V Buck Regulator and N-channel MOSFET low-side switch circuit. There is also a flyback diode on the load side.
 
 
 
 Repository Contents
 -------------------
 
+* **.github/workflows** -  Needed for GitHub Actions to generate GitHub Pages (.yml)
 * **/Hardware** - Eagle design files (.brd, .sch)
-
+  * **/Production** - Production panel files (.brd)
+* **/docs** - Online documentation files for GitHub Pages and mkdocs
+* **/overrides** - Webpage customizations
 
 
 Documentation
@@ -26,13 +29,13 @@ Documentation
 Product Versions
 ----------------
 
-* [COM-23979](https://www.sparkfun.com/products/23979) - Initial release
+* [COM-23979](https://www.sparkfun.com/products/23979) - Initial release, v1.1
 
 
 
 Version History
 ---------------
-* v1.0
+* v1.1 - Initial release
 
 
 
