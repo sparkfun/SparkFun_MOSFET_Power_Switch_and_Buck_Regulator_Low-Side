@@ -22937,39 +22937,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-2.286" y="2.159" size="0.6096" layer="25" ratio="20">&gt;NAME</text>
 <text x="-2.413" y="-2.794" size="0.6096" layer="27" ratio="20">&gt;VALUE</text>
 </package>
-<package name="TO-92">
-<description>&lt;b&gt;TO 92&lt;/b&gt;</description>
-<wire x1="-0.7863" y1="2.5485" x2="-2.0946" y2="-1.651" width="0.2032" layer="21" curve="111.098962"/>
-<wire x1="2.0945" y1="-1.651" x2="0.7863" y2="2.548396875" width="0.2032" layer="21" curve="111.099507"/>
-<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.2032" layer="21"/>
-<wire x1="-2.6549" y1="-0.254" x2="-2.2537" y2="-0.254" width="0.2032" layer="21"/>
-<wire x1="-0.2863" y1="-0.254" x2="0.2863" y2="-0.254" width="0.2032" layer="21"/>
-<wire x1="2.2537" y1="-0.254" x2="2.6549" y2="-0.254" width="0.2032" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="2" x="0" y="1.905" drill="0.8128" diameter="1.8796"/>
-<pad name="3" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<text x="0" y="3.048" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.905" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-<package name="TO-92-EZ">
-<wire x1="-0.7863" y1="2.5485" x2="-2.0946" y2="-1.651" width="0.2032" layer="21" curve="111.098962"/>
-<wire x1="2.0945" y1="-1.651" x2="0.7863" y2="2.548396875" width="0.2032" layer="21" curve="111.099507"/>
-<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.2032" layer="21"/>
-<wire x1="-2.6549" y1="-0.254" x2="-2.2537" y2="-0.254" width="0.2032" layer="21"/>
-<wire x1="-0.2863" y1="-0.254" x2="0.2863" y2="-0.254" width="0.2032" layer="21"/>
-<wire x1="2.2537" y1="-0.254" x2="2.6549" y2="-0.254" width="0.2032" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="0.8128" diameter="1.8796" stop="no"/>
-<pad name="2" x="0" y="1.905" drill="0.8128" diameter="1.8796" stop="no"/>
-<pad name="3" x="1.27" y="0" drill="0.8128" diameter="1.8796" stop="no"/>
-<text x="0" y="3.048" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.905" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<circle x="0" y="1.905" radius="1.02390625" width="0" layer="30"/>
-<circle x="1.27" y="0" radius="1.02390625" width="0" layer="30"/>
-<circle x="0" y="1.905" radius="0.508" width="0" layer="29"/>
-<circle x="-1.27" y="0" radius="0.508" width="0" layer="29"/>
-<circle x="-1.27" y="0" radius="1.02390625" width="0" layer="30"/>
-<circle x="1.27" y="0" radius="0.508" width="0" layer="29"/>
-</package>
 </packages>
 <symbols>
 <symbol name="DIODE-SCHOTTKY">
@@ -23033,26 +23000,6 @@ Switches electronic signals</description>
 <text x="0.508" y="2.54" size="1.27" layer="94">D</text>
 <text x="0.508" y="-3.81" size="1.27" layer="94">S</text>
 <text x="-3.302" y="-0.508" size="1.27" layer="94" rot="R180">G</text>
-</symbol>
-<symbol name="NPN">
-<description>&lt;h3&gt; NPN Transistor&lt;/h3&gt;
-Allows current flow when high potential at base.</description>
-<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
-<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
-<text x="2.54" y="0" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="2.54" y="-2.286" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
-<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
-<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -23287,98 +23234,6 @@ Allows current flow when high potential at base.</description>
 <technology name="">
 <attribute name="PROD_ID" value="TRANS-14399"/>
 <attribute name="VALUE" value="20V/0.2A/8MHz/1.2Ω/1Vth"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TRANS_NPN" prefix="Q">
-<description>&lt;h3&gt;NPN transistor&lt;/h3&gt;
-&lt;p&gt;Current controlled devices typically used to amplify current or used as a switch.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    BC547 - 
-    &lt;a href="http://www.sparkfun.com/products/8928"&gt;COM-08928&lt;/a&gt;
-    (TO-92 45V 100mA) (1.Collector 2.Base 3.Emitter)
-  &lt;/li&gt;
-  &lt;li&gt;
-    2N3904 - 
-    &lt;a href="http://www.sparkfun.com/products/521"&gt;COM-00521&lt;/a&gt;
-    (TO-92 40V 200mA) (1.Emitter 2.Base 3.Collector)
-  &lt;/li&gt;
-  &lt;li&gt;
-    P2N2222A - 
-    &lt;a href="http://www.sparkfun.com/products/12852"&gt;COM-12852&lt;/a&gt;
-    (TO-92 40V 600mA) (1.Collector 2.Base 3.Emitter)
-  &lt;/li&gt;
-
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="NPN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-MMBT2222AL" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-08049"/>
-<attribute name="VALUE" value="600mA/40V"/>
-</technology>
-</technologies>
-</device>
-<device name="-2N3904" package="TO-92">
-<connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-08447"/>
-<attribute name="VALUE" value="200mA/40V"/>
-</technology>
-</technologies>
-</device>
-<device name="-P2N2222A" package="TO-92">
-<connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-09536"/>
-<attribute name="VALUE" value="600mA/40V"/>
-</technology>
-</technologies>
-</device>
-<device name="-MMBTA42" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-09116"/>
-<attribute name="VALUE" value="500mA/300V"/>
-</technology>
-</technologies>
-</device>
-<device name="-2N3904-EZ" package="TO-92-EZ">
-<connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-08447"/>
-<attribute name="VALUE" value="200mA/40V"/>
 </technology>
 </technologies>
 </device>
@@ -24525,9 +24380,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
-<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBT2222AL" value="600mA/40V"/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
-<part name="R11" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
+<part name="R11" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R12" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
@@ -24555,11 +24409,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SPECIAL_INSTRUCTIONS" device="-ORDERING"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-BSS138" value="220mA/50V/3.5Ω"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="241.3" y="7.62" size="2.54" layer="94" font="vector">v11</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v11b</text>
 <text x="64.77" y="27.686" size="1.778" layer="97" font="vector" align="center">Default
 Off</text>
 <text x="213.36" y="99.06" size="2.54" layer="94" font="vector" align="center">Load Connections
@@ -24575,7 +24430,7 @@ Off</text>
 <wire x1="180.34" y1="106.68" x2="0" y2="106.68" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="180.34" y1="106.68" x2="248.92" y2="106.68" width="0.1524" layer="97" style="shortdash"/>
 <text x="213.36" y="180.34" size="2.54" layer="94" font="vector" align="center">Header Connections</text>
-<text x="12.7" y="66.04" size="1.778" layer="97" font="vector">Cut "ON_LED" Jumper 
+<text x="7.62" y="66.04" size="1.778" layer="97" font="vector">Cut "ON_LED" Jumper 
 to disable ON LED.</text>
 <text x="114.3" y="114.3" size="1.778" layer="97" font="vector">Cut "PWR_LED" Jumper 
 to disable Power LED.</text>
@@ -24591,13 +24446,13 @@ to measure current consumption</text>
 <instance part="H2" gate="G$1" x="246.38" y="27.94" smashed="yes"/>
 <instance part="H4" gate="G$1" x="243.84" y="30.48" smashed="yes"/>
 <instance part="H3" gate="G$1" x="243.84" y="27.94" smashed="yes"/>
-<instance part="ON" gate="G$1" x="53.34" y="45.72" smashed="yes">
-<attribute name="NAME" x="49.911" y="41.148" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="55.245" y="41.148" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="ON" gate="G$1" x="50.8" y="43.18" smashed="yes">
+<attribute name="NAME" x="47.371" y="38.608" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="52.705" y="38.608" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="R2" gate="G$1" x="53.34" y="55.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="51.816" y="55.88" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="54.864" y="55.88" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R2" gate="G$1" x="50.8" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="49.276" y="53.34" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="52.324" y="53.34" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="R7" gate="G$1" x="121.92" y="152.4" smashed="yes">
 <attribute name="NAME" x="121.92" y="153.924" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -24670,9 +24525,9 @@ to measure current consumption</text>
 <instance part="GND29" gate="1" x="91.44" y="38.1" smashed="yes">
 <attribute name="VALUE" x="91.44" y="37.846" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="R10" gate="G$1" x="68.58" y="45.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="67.056" y="45.72" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="70.104" y="45.72" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R10" gate="G$1" x="66.04" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="64.516" y="43.18" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="67.564" y="43.18" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="D2" gate="G$1" x="83.82" y="63.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="81.788" y="60.96" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -24698,10 +24553,6 @@ to measure current consumption</text>
 <instance part="SUPPLY9" gate="G$1" x="205.74" y="76.2" smashed="yes">
 <attribute name="VALUE" x="205.74" y="78.994" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="Q1" gate="G$1" x="73.66" y="38.1" smashed="yes">
-<attribute name="NAME" x="76.708" y="36.576" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="76.708" y="31.75" size="1.778" layer="96" font="vector"/>
-</instance>
 <instance part="SUPPLY11" gate="G$1" x="76.2" y="60.96" smashed="yes">
 <attribute name="VALUE" x="76.2" y="63.754" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
@@ -24712,12 +24563,12 @@ to measure current consumption</text>
 <instance part="GND12" gate="1" x="76.2" y="27.94" smashed="yes">
 <attribute name="VALUE" x="76.2" y="27.686" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY12" gate="G$1" x="68.58" y="53.34" smashed="yes">
-<attribute name="VALUE" x="68.58" y="56.134" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY12" gate="G$1" x="66.04" y="50.8" smashed="yes">
+<attribute name="VALUE" x="66.04" y="53.594" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="R12" gate="G$1" x="60.96" y="38.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="60.96" y="36.576" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="60.96" y="39.624" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<instance part="R12" gate="G$1" x="58.42" y="35.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="58.42" y="34.036" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="58.42" y="37.084" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
 <instance part="J1" gate="J1" x="226.06" y="139.7" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="231.14" y="132.334" size="1.778" layer="96" font="vector" rot="MR0"/>
@@ -24773,9 +24624,9 @@ to measure current consumption</text>
 <attribute name="NAME" x="170.434" y="134.62" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
 <attribute name="VALUE" x="170.688" y="134.62" size="1.778" layer="96" font="vector" rot="R90" align="center"/>
 </instance>
-<instance part="ON_LED" gate="G$1" x="53.34" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="50.292" y="68.58" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
-<attribute name="VALUE" x="56.388" y="68.58" size="1.778" layer="96" font="vector" rot="R90" align="center"/>
+<instance part="ON_LED" gate="G$1" x="50.8" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="47.752" y="66.04" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="53.848" y="66.04" size="1.778" layer="96" font="vector" rot="R90" align="center"/>
 </instance>
 <instance part="FD1" gate="G$1" x="231.14" y="30.48" smashed="yes"/>
 <instance part="FD2" gate="G$1" x="233.68" y="30.48" smashed="yes"/>
@@ -24789,8 +24640,12 @@ to measure current consumption</text>
 <attribute name="VALUE" x="43.18" y="139.446" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="LOGO3" gate="G$1" x="226.06" y="33.02" smashed="yes"/>
-<instance part="SUPPLY1" gate="G$1" x="53.34" y="76.2" smashed="yes">
-<attribute name="VALUE" x="53.34" y="78.994" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY1" gate="G$1" x="50.8" y="73.66" smashed="yes">
+<attribute name="VALUE" x="50.8" y="76.454" size="1.778" layer="96" font="vector" align="bottom-center"/>
+</instance>
+<instance part="Q1" gate="NMOS" x="73.66" y="38.1" smashed="yes">
+<attribute name="NAME" x="78.74" y="38.1" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="78.74" y="33.02" size="1.778" layer="96" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -24853,9 +24708,9 @@ to measure current consumption</text>
 <wire x1="43.18" y1="160.02" x2="43.18" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="G$1" pin="E"/>
 <wire x1="76.2" y1="33.02" x2="76.2" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
+<pinref part="Q1" gate="NMOS" pin="S"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J1" pin="1"/>
@@ -24878,7 +24733,7 @@ to measure current consumption</text>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="ON" gate="G$1" pin="A"/>
-<wire x1="53.34" y1="48.26" x2="53.34" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="45.72" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VSW" class="0">
@@ -24936,7 +24791,7 @@ to measure current consumption</text>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
-<wire x1="68.58" y1="53.34" x2="68.58" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="50.8" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J1" pin="3"/>
@@ -24956,7 +24811,7 @@ to measure current consumption</text>
 </segment>
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
-<wire x1="53.34" y1="76.2" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="73.66" x2="50.8" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="ON_LED" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -25060,22 +24915,22 @@ to measure current consumption</text>
 <segment>
 <pinref part="Q2" gate="NMOS" pin="G"/>
 <wire x1="83.82" y1="45.72" x2="76.2" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="C"/>
 <wire x1="76.2" y1="45.72" x2="76.2" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="45.72" x2="76.2" y2="48.26" width="0.1524" layer="91"/>
 <junction x="76.2" y="45.72"/>
 <pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="Q1" gate="NMOS" pin="D"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="B"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="35.56" x2="66.04" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="38.1" x2="71.12" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="40.64" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
-<junction x="68.58" y="38.1"/>
+<wire x1="66.04" y1="38.1" x2="66.04" y2="35.56" width="0.1524" layer="91"/>
+<junction x="66.04" y="35.56"/>
+<pinref part="Q1" gate="NMOS" pin="G"/>
+<wire x1="66.04" y1="35.56" x2="68.58" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -25095,19 +24950,19 @@ to measure current consumption</text>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="63.5" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="60.96" x2="50.8" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="ON_LED" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="!CTL" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="38.1" x2="53.34" y2="38.1" width="0.1524" layer="91"/>
-<label x="50.8" y="38.1" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="53.34" y1="35.56" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
+<label x="48.26" y="35.56" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="ON" gate="G$1" pin="C"/>
-<wire x1="53.34" y1="38.1" x2="50.8" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="38.1" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
-<junction x="53.34" y="38.1"/>
+<wire x1="50.8" y1="35.56" x2="48.26" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="35.56" x2="50.8" y2="38.1" width="0.1524" layer="91"/>
+<junction x="50.8" y="35.56"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J1" pin="2"/>
