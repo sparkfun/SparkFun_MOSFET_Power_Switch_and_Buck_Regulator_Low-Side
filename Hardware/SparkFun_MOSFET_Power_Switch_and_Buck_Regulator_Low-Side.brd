@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -8052,15 +8052,10 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </element>
 <element name="U$10" library="output" package="#0" value="" x="1.27" y="13.462" smashed="yes" rot="R270"/>
 <element name="U$11" library="output" package="#1" value="" x="1.27" y="6.35" smashed="yes" rot="R270"/>
-<element name="Q1" library="SparkFun-DiscreteSemi" package="SOT23-3" value="600mA/40V" x="20.32" y="21.59" smashed="yes" rot="R180">
-<attribute name="NAME" x="21.971" y="21.59" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-08049" x="20.32" y="21.59" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="VALUE" x="18.669" y="21.59" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
-</element>
-<element name="R11" library="SparkFun-Resistors" package="0603" value="10k" x="17.145" y="21.59" smashed="yes" rot="R90">
+<element name="R11" library="SparkFun-Resistors" package="0603" value="100k" x="17.145" y="21.59" smashed="yes" rot="R90">
 <attribute name="NAME" x="16.383" y="21.59" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-00824" x="17.145" y="21.59" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="VALUE" x="17.907" y="21.59" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<attribute name="PROD_ID" value="RES-07828" x="17.145" y="21.59" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="VALUE" value="100k" x="17.907" y="21.59" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="R12" library="SparkFun-Resistors" package="0603" value="1k" x="23.495" y="21.59" smashed="yes" rot="R270">
 <attribute name="NAME" x="24.257" y="21.59" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -8155,6 +8150,11 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$44" library="output" package="SIDE0" value="" x="17.233903125" y="13.6194875" smashed="yes" rot="MR0"/>
 <element name="U$34" library="output" package="PWR9" value="" x="33.7693" y="28.039059375" smashed="yes"/>
 <element name="U$35" library="output" package="ON10" value="" x="13.85061875" y="2.308859375" smashed="yes"/>
+<element name="Q1" library="SparkFun-DiscreteSemi" package="SOT23-3" value="220mA/50V/3.5Ω" x="20.32" y="21.59" smashed="yes" rot="R180">
+<attribute name="NAME" x="21.971" y="21.59" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="TRANS-00830" x="20.32" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="18.669" y="21.59" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND" class="1">
@@ -8180,7 +8180,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <vertex x="38.1" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
-<contactref element="Q1" pad="2"/>
 <contactref element="J1" pad="1"/>
 <via x="12.425684375" y="21.711921875" extent="1-16" drill="0.3048"/>
 <via x="18.564859375" y="16.799559375" extent="1-16" drill="0.3048"/>
@@ -8236,6 +8235,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <vertex x="22.86" y="13.97"/>
 </polygon>
 <via x="0.543559375" y="10.15745625" extent="1-16" drill="0.3048"/>
+<contactref element="Q1" pad="2"/>
 </signal>
 <signal name="SDA1">
 </signal>
@@ -8488,7 +8488,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </signal>
 <signal name="N$1">
 <contactref element="Q2" pad="1"/>
-<contactref element="Q1" pad="3"/>
 <contactref element="R11" pad="1"/>
 <wire x1="20.32" y1="20.49" x2="17.395" y2="20.49" width="0.2032" layer="1"/>
 <wire x1="17.395" y1="20.49" x2="17.145" y2="20.74" width="0.2032" layer="1"/>
@@ -8496,14 +8495,15 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="21.633" y1="19.177" x2="20.32" y2="20.49" width="0.2032" layer="1"/>
 <wire x1="25.4" y1="17.399" x2="23.622" y2="19.177" width="0.2032" layer="1"/>
 <wire x1="23.622" y1="19.177" x2="21.633" y2="19.177" width="0.2032" layer="1"/>
+<contactref element="Q1" pad="3"/>
 </signal>
 <signal name="N$12">
-<contactref element="Q1" pad="1"/>
 <contactref element="R12" pad="1"/>
 <contactref element="R10" pad="1"/>
 <wire x1="21.27" y1="22.59" x2="23.345" y2="22.59" width="0.2032" layer="1"/>
 <wire x1="23.345" y1="22.59" x2="23.495" y2="22.44" width="0.2032" layer="1"/>
 <wire x1="23.495" y1="22.44" x2="25.4" y2="22.44" width="0.2032" layer="1"/>
+<contactref element="Q1" pad="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="R1" pad="1"/>
