@@ -1,7 +1,7 @@
 SparkFun MOSFET Power Switch and Buck Regulator (Low-Side)
 ========================================
 
-[![SparkFun MOSFET Power Switch and Buck Regulator (Low-Side)](URL for picture of part)](https://www.sparkfun.com/products/23979)
+[![SparkFun MOSFET Power Switch and Buck Regulator (Low-Side)](https://cdn.sparkfun.com/r/600-600/assets/parts/2/4/3/0/3/COM-23979-MOSFET-Power-Switch-Feature.jpg)](https://www.sparkfun.com/products/23979)
 
 [*SparkFun MOSFET Power Switch and Buck Regulator (Low-Side) (COM-23979)*](https://www.sparkfun.com/products/23979)
 
